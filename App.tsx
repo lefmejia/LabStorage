@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import { supabase } from "./src/services/supbaseClient";
 import * as DocumentPicker from 'expo-document-picker';
 import { Alert, StyleSheet, Text, View } from 'react-native';
-import FileUploader from './src/components/FileUploader';
 import { useState } from 'react';
 import CustomButton from './src/components/CustomButton';
 
